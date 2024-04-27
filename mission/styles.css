@@ -16,16 +16,19 @@ body{
     grid-column: 2/3;
 }
 
-.header p{
+.header p {
     color: blue;
     grid-column: 3fr;
     text-decoration-line: underline;
     text-decoration-color: blue;
 }
-.notes{
+.notes {
     grid-column: 2/3;
 }
 
+.italic {
+    font-style: italic;
+}
 
 img{
     display: block;
