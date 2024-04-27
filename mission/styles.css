@@ -1,5 +1,5 @@
 body{
-    padding:80px;
+    padding:10%;
 
     background-color: white;
 
@@ -14,13 +14,14 @@ body{
 .header{
     text-align: center;
     grid-column: 2/3;
+
 }
 
 .header p {
-    color: blue;
-    grid-column: 3fr;
+    color: #006EB6;
+    grid-column: 2/3;
     text-decoration-line: underline;
-    text-decoration-color: blue;
+    text-decoration-color: #006EB6;
 }
 .notes {
     grid-column: 2/3;
