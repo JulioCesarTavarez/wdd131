@@ -4,6 +4,12 @@ body{
     background-color: white;
 
 }
+label {
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-right: 10px;
+
+}
 .letter {
     padding: 10% 15%;
     border-style: groove;
@@ -28,5 +34,11 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+
+}
+
+.dark{
+    background-color: #333;
+    color: white;
 
 }
