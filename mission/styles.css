@@ -15,7 +15,6 @@ label {
 .letter {
     padding: 10% 15%;
     border-style: groove;
-    background-color: white;
 }
 
 .header{
@@ -39,7 +38,7 @@ img{
 
 }
 
-body.dark-mode{
+.dark-mode{
     background-color: #333;
     color: white;
 
