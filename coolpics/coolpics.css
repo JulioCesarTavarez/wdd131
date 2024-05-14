@@ -29,6 +29,9 @@ color: white;
 h1{
     text-align: center;
 }
+h2{
+    text-align: center;
+}
 ul{
     display: flex;
     flex-direction: column;
@@ -43,11 +46,13 @@ nav{
 .gallery{
     display: grid;
     grid-template-columns: 1fr;
+    gap: 20px;
     
 }
 
 img{
     max-width: 100%;
+    align-self: center;
 }
 
 @media screen and (min-width:700px) {
