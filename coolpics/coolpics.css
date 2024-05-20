@@ -22,6 +22,7 @@ header{
     background-color: #52489C;
     color: white;
     padding: 1rem;
+
 }
 a {
 color: white;
@@ -38,6 +39,7 @@ ul{
     justify-content: space-around;
     list-style: none;
     padding: 0;
+    align-items: center;
 }
 nav{
     padding: 0.5;
@@ -47,12 +49,10 @@ nav{
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-    
 }
 
 img{
     max-width: 100%;
-    align-self: center;
 }
 
 @media screen and (min-width:700px) {
