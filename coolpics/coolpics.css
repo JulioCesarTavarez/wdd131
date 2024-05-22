@@ -63,6 +63,10 @@ footer{
     color: white;
 }
 
+.hide{
+    display: none;
+}
+
 @media screen and (min-width:700px) {
     ul {
         flex-direction: row;
@@ -70,5 +74,8 @@ footer{
 
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .menuButton{
+        display: none;
     }
 }
