@@ -22,7 +22,6 @@ header{
     background-color: #52489C;
     color: white;
     padding: 1rem;
-
 }
 a {
 color: white;
@@ -67,11 +66,55 @@ footer{
     display: none;
 }
 
+#viewer{
+
+    margin-top: 25%;
+    margin-left: 25%;
+    position: absolute;
+    height : calc(100vh - 20rem);
+    width: calc(100vh - 20rem);
+    padding: 5rem;
+    background-color: rgba(0,0,0,0.75);
+    grid-template-columns: 1fr 5px;
+    display: grid;
+
+
+
+}
+#close-viewer{
+    color: white;
+    width: 10%;
+    height: 10%;
+    border: none;
+    background-color: transparent;
+}
+
+
+#viewer img{
+    height: 100%;
+    width: 100%;
+    border: none;
+    align-self: center;
+
+}
+
 @media screen and (min-width:700px) {
     ul {
         flex-direction: row;
     }
 
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+    .menuButton{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    ul {
+        flex-direction: row;
+    }
     .gallery {
         grid-template-columns: 1fr 1fr 1fr;
     }
