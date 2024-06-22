@@ -1,0 +1,54 @@
+h1
+{
+    text-align: center;
+    color: #4e334b;
+}
+ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    color: #AF1B3F;
+}
+
+nav
+{
+    grid-template-columns: 3fr 1fr;
+    display: grid;
+    border-style: solid none solid none;
+    border-color: #EFC69B;
+}
+
+main
+{
+grid-template-columns: 1fr 2fr 1fr;
+display: grid;
+}
+.book_card
+{
+    color: black;
+    justify-self: center;
+    text-align: center;
+}
+.book_card h2
+{
+    color: #AF1B3F
+}
+img
+{
+    width: 100%;
+
+}
+
+.skiptocontent a {
+	/* set the element to absolute positioning */
+	/* move it off screen */
+	/* Make sure it will be on the left edge of the screen */
+	/* Change the background and color to something that stands out */
+}
+.skiptocontent a:focus {
+	/* Move it back on when focused */
+}

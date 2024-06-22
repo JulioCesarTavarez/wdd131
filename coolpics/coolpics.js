@@ -48,6 +48,7 @@
     document.getElementById('.close-viewer').addEventListener('click', closeViewer);
   }
 
+
   function closeViewer() {
     const viewer = document.querySelector('.viewer');
     if (viewer) {
@@ -58,3 +59,9 @@
   galleryImages.forEach(img => {
     img.addEventListener('click', viewHandler);
   });
+
+  document.getElementById('close-viewer').addEventListener('click', function() {
+    const viewer = document.getElementById('viewer');
+    viewer.classList.add('hide');
+
+});
