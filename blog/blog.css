@@ -26,6 +26,7 @@ main
 {
 grid-template-columns: 1fr 2fr 1fr;
 display: grid;
+row-gap: 40px;
 }
 .book_card
 {
@@ -40,7 +41,26 @@ display: grid;
 img
 {
     width: 100%;
+    height: 400px;
 
+}
+button
+{
+    border: none;
+    color:#AF1B3F;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.info_card
+{
+    color: black;
+    justify-self: center;
+    text-align: left;
+    border-style: none solid none none;
+    border-color: #EFC69B;
+    padding: 20px;
 }
 
 .skiptocontent a {
@@ -48,7 +68,12 @@ img
 	/* move it off screen */
 	/* Make sure it will be on the left edge of the screen */
 	/* Change the background and color to something that stands out */
+    position: absolute;
+    left: -999em;
 }
 .skiptocontent a:focus {
 	/* Move it back on when focused */
+    position: relative;
+    left: 0;
+    top: 0;
 }
