@@ -1,0 +1,114 @@
+h1
+{
+    text-align: center;
+    color: #4e334b;
+}
+ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    color: #AF1B3F;
+}
+
+nav
+{
+    grid-template-columns: 3fr 1fr;
+    display: grid;
+    border-style: solid none solid none;
+    border-color: #EFC69B;
+    margin: 20px;
+
+}
+
+main
+{
+grid-template-columns: 3fr 1fr;
+display: grid;
+
+}
+.book{
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+    row-gap: 40px;
+}
+.book_card
+{
+    color: black;
+    padding:  10px;
+
+}
+.date
+{
+    font-size: large;
+}
+.age_rating
+{
+    font-size: small;
+}
+
+.book_card h2
+{
+    color: #AF1B3F
+
+}
+.book_card img
+{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+
+    display: block;
+
+}
+
+button
+{
+    border: none;
+    color:#AF1B3F;
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.info_card
+{
+    color: black;
+    justify-self: center;
+    text-align: left;
+    border-style: none solid none none;
+    border-color: #EFC69B;
+    padding: 20px;
+}
+
+.skiptocontent a {
+	/* set the element to absolute positioning */
+	/* move it off screen */
+	/* Make sure it will be on the left edge of the screen */
+	/* Change the background and color to something that stands out */
+    position: absolute;
+    left: -999em;
+}
+.skiptocontent a:focus {
+	/* Move it back on when focused */
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.filter
+{
+    border-style: solid solid none solid;
+    border-color: #EFC69B;
+}
+
+@media screen and (min-width:700px) {
+.book_card img
+{
+    width: 350px;
+    height: 500px;
+    justify-self: center;}
+    
+}
