@@ -74,15 +74,10 @@ for (let i = 0; i < articles.length; i++)
 
 
 }
-// const book = document.querySelector(".book");
-// const book_card = document.querySelector(".book_card");
-// const info_card = document.querySelector(".info_card");
-// const date = document.querySelector(".date");
-
-
-// for (let i = 0; i < articles.length; i++)
-// {
-//     const article = articles[i];
-//     document.querySelector(".date").innerHTML += article.date;
-    
-// }	
+// document.addEventListener("keydown", function(event) {
+//     if (event.key == "Tab")
+//         {
+//             event.preventDefault();
+//             document.querySelector(".skipcontent")[0].style.display = "block";
+//         }
+// });
