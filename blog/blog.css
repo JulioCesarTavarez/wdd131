@@ -77,3 +77,12 @@ button
     left: 0;
     top: 0;
 }
+
+@media screen and (min-width:700px) {
+img
+{
+    width: 350px;
+    height: 500px;
+}
+    
+}
