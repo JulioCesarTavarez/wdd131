@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>credit_card</title>
+    <link rel="stylesheet" href="credit_card.css">
 </head>
 <body>
-    
+
+    <form>
+        <div class="card">
+            <div class="front_card">
+
+                <div class="cost">
+                    <p>Total: $199</p>
+                </div>
+                <img src="orange_card.png" alt="orange credit card" width="30px"><br>
+                
+                <div class="num">
+                    <label for="card-number">Card Number</label><br>
+                    <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9101 1112"><br><br>
+                </div>
+
+                <div class="name">
+                    <label for="card-holder">CARD HOLDER</label><br>
+                    <input type="text" id="card-holder" name="card-holder" placeholder="John Doe"><br><br>
+                </div>
+
+                <div class="date">
+                    <label class="date_title" for="exp-date">EXPIRATOIN</label>
+                    <input class="month" type="string" id="exp-month" name="exp-month" placeholder="MM">
+                    <input class="year" type="string" id="exp-year" name="exp-year" placeholder="YY">
+                </div>
+
+            </div>
+
+            <div class="back_card">
+
+                <label for="cvc">CVC</label>
+                <input type="text" id="cvc" name="cvc" placeholder="Enter your CVC">
+            
+            </div>
+            <button type="submit" value="Submit">Submit</button>
+        </div>
+    </form>
+
+
 </body>
 </html>
