@@ -1,6 +1,6 @@
 body{
 
-    background-color: black;
+
 }
 .card
 {
@@ -12,6 +12,8 @@ body{
 input
 {
     border-radius: 5px;
+    width: 95%;
+    height: 50%;
 }
 .front_card
 {
@@ -23,11 +25,23 @@ input
     padding: 1rem;
     border-radius: 5px;
     background-color: #DDDDDD;
+    box-shadow: #475253 0px 0px 10px 0px;
+}
+image
+{
+    grid-area: 1 / 3 / span 1 / span 1;
+    width: 100%;
+    height: 100%;
+
+    justify-self: end;
 }
 .num
 {
     grid-area: 2 / 1 / span 1 / span 2;
+
 }
+
+
 .name
 {
     grid-area: 3 / 1 / span 1 / span 1;
@@ -47,10 +61,12 @@ input
 .month
 {
     grid-area: 2 / 1 / span 1 / span 1;
+    height: 50%;
 }
 .year
 {
     grid-area: 2 / 2 / span 1 / span 1;
+    height: 50%;
 }
 
 
@@ -61,11 +77,65 @@ input
     grid-area: 2 / 2 / span 2 / span 2;
     padding: 1rem;
     border-radius: 5px;
-    background-color: #bd1313;
+    background-color: #DDDDDD;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    box-shadow: #475253 0px 0px 10px 0px;
+    margin: 1rem;
+}
+.bar
+{
+    grid-area: 1 / 1 / span 1 / span 2;
+    background-color: #444444;
+    height: 40%;
+    width: 100%;
+}
+.cvc
+{
+    grid-area: 2 / 2 / span 1 / span 1;
+    width:100%;
+    display: flex;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    align-items: flex-end;
+}
+.cvc_title
+{
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+.cvc_number
+{
+    grid-area: 2 / 1 / span 1 / span 1;
+    align-self: start;
 }
 
 button
 {
     grid-area: 4 / 3 / span 1 / span 1;
     border-radius: 5px;
+    width: 60%;
+    height: 50%;
+    justify-self: center;
+}
+
+@media screen and (min-width:700px)
+{
+    .front_card
+    {
+        width: 50%
+        
+    }
+    .back_card
+    {
+        width: 50%
+    }
+    button
+{
+    grid-area: 4 / 2 / span 1 / span 1;
+    border-radius: 5px;
+    width: 40%;
+    height: 50%;
+    justify-self: center;
+}
 }
