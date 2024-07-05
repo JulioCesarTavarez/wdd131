@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe</title>
-    <link rel="stylesheet" href="credit_card.css">
+    <link rel="stylesheet" href="recipes.css">
     <script src="main.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="recipe.png" alt="hecipe book cover">
+        <img class="cover" src="recipe.png" alt="hecipe book cover">
+        <h1 class="title">Recipe Book</h1>
         <fom id="search">
             <input type="text" placeholder="Find a recipe">
             <button><img src="search_icon.svg" alt="search icon"></button>
@@ -21,7 +22,7 @@
     <main>
         <section id="cards">
             <img src="apple-crisp.jpg" alt="Apple crips image">
-            <div class="tag">dessert</div>
+            <div class="tag"><p>dessert</p></div>
             <p class="name">Apple Crisp</p>
             <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars"></span>
             <span aria-hidden="true" class="icon-star">⭐</span>
