@@ -1,14 +1,129 @@
-header{
+header {
     padding: 1rem;
+    border-bottom: solid 1px #322c2c;
+    margin-bottom: 1rem;
     display: flex;
-    border-bottom: solid;
-    mar
+    flex-direction: column;
+    align-items: center;
 }
-.cover{
-    width: 40%;
 
+.title {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
 }
-h1{
+
+.img-title {
+    width: 200px; /* Adjust size as needed */
+    justify-self: end; /* Align image to the right */
+}
+
+.text-title {
+    justify-self: start; /* Align text to the left */
+    font-size: 5rem;
+}
+
+h1 {
     text-align: center;
 }
 
+#search {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#search input {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#search button {
+    padding: 0.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tag {
+    border: solid 1px #000000;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.2rem 0.4rem;
+    margin-right: 0.5rem;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.name {
+    font-weight: bold;
+    color: #79B5D6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px
+}
+
+.description {
+    display: none;
+}
+
+
+.social {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    margin: 5px
+}
+
+.cards {
+    border: solid 1px #000;
+    border-width: fit-content;
+    border-radius: 0.5rem;
+    padding: 3rem;
+    margin: 100px;
+    
+
+}
+
+.food {
+    width: 100%;
+}
+
+footer{
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    display: grid;
+    ;
+}
+
+.social{
+    grid-area: 1 / 2 / span 1 / span 1;
+    width: 70%;
+    margin-left: 2rem;
+}
+.icon{
+    grid-area: 2 / 2 / span 1 / span 1;
+    font-size: 1.5rem;
+    color: #5891b0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2rem;
+}
+
+@media screen and (min-width:700px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px 50px 50px;
+        display: grid;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .food{
+        width: 100%;
+        grid-area: 1 / 1 / span 4 / span 1;
+    }
+    
+    
+    .description {
+        display: block;
+    }
+}

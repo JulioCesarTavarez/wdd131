@@ -9,8 +9,10 @@
 </head>
 <body>
     <header>
-        <img class="cover" src="recipe.png" alt="hecipe book cover">
-        <h1 class="title">Recipe Book</h1>
+        <div class="title">
+            <img class="img-title" src="recipe.png" alt="hecipe book cover">
+            <h1 class="text-title">Recipe Book</h1>
+        </div>
         <fom id="search">
             <input type="text" placeholder="Find a recipe">
             <button><img src="search_icon.svg" alt="search icon"></button>
@@ -20,28 +22,29 @@
     </header>
 
     <main>
-        <section id="cards">
-            <img src="apple-crisp.jpg" alt="Apple crips image">
+        <section id="cards" class = "cards">
+            <img class="food" src="apple-crisp.jpg" alt="Apple crips image">
             <div class="tag"><p>dessert</p></div>
             <p class="name">Apple Crisp</p>
-            <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars"></span>
-            <span aria-hidden="true" class="icon-star">⭐</span>
-            <span aria-hidden="true" class="icon-star">⭐</span>
-            <span aria-hidden="true" class="icon-star">⭐</span>
-            <span aria-hidden="true" class="icon-star-empty">⭐</span>
-            <span aria-hidden="true" class="icon-star-empty">☆</span>
+            <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">⭐</span>
+                <span aria-hidden="true" class="icon-star">☆</span>
+            </span> 
             <p class="description">This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
         </section>
     </main>
 
     <footer>
-        <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
         <div class="social">
             <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
-            <a href="#"><img src="instagram_icon.svg" alt="instagram icon"></a>
-            <a href="#"><img src="youtube_icon.svg" alt="youtube icon"></a>
-            <a href="#"><img src="pinterest_icon.svg" alt="pinterest icon"></a>
+            <a href="#"><img class="social" src="instagram_icon.svg" alt="instagram icon"></a>
+            <a href="#"><img class="social" src="youtube_icon.svg" alt="youtube icon"></a>
+            <a href="#"><img class="social" src="pinterest_icon.svg" alt="pinterest icon"></a>
         </div>
+        <a class="icon" href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
     </footer>
 
 </body>
