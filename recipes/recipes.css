@@ -48,9 +48,8 @@ h1 {
 }
 
 .tag {
+    display: inline-block; /* Display tags inline */
     border: solid 1px #000000;
-    width: fit-content;
-    height: fit-content;
     padding: 0.2rem 0.4rem;
     margin-right: 0.5rem;
     font-weight: bold;

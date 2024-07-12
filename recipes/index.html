@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe</title>
     <link rel="stylesheet" href="recipes.css">
-    <script src="main.js" defer></script>
+    <script src="main.js" type="module"defer></script>
 </head>
 <body>
     <header>
@@ -26,7 +26,9 @@
     <main>
         <section id="cards" class = "cards">
             <img class="food" src="apple-crisp.jpg" alt="Apple crips image">
-            <div class="tag"><p>dessert</p></div>
+            <div class="flex-container">
+                <div class="tag"><p>dessert</p></div>
+            </div>
             <p class="name">Apple Crisp</p>
             <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
                 <span aria-hidden="true" class="icon-star">⭐</span>
