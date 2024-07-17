@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_page</title>
+    <link rel="stylesheet" href="creat_account.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+      <a href="site-plan.html">
+        <button class="more_button"><p class="more_info">...</p></button>
+      </a>
+    </header>
+    <main>
+      <div class="alighn_title">         
+        <h1>Creat New Account</h1>
+      </div>
+        <div class="login">
+            <p>Already have an account?</p>
+            <a href="index.html">
+                <button class="login_button">
+                    <p>Login Here!</p>
+                </button>
+            </a>
+        </div>
+        <div class="terms_and_conditions">
+            <div class="User_Agreement">
+                <h2>User Agreement</h2>
+                <p>Users must be at least 13 years old (or the minimum age required by local law).</p>
+                <p>Users must provide accurate and complete registration information.</p>
+                <p>Users agree to keep their account information secure and confidential.</p>
+              </div>
+              
+              <div class="Content_Policy">
+                <h2>Content Policy</h2>
+                <p>Users must not post any content that is illegal, harmful, abusive, defamatory, obscene, hateful, or discriminatory.</p>
+                <p>Users must not post any content that infringes on the intellectual property rights of others.</p>
+                <p>Users must not post any false or misleading information.</p>
+                <p>Users are responsible for the content they share and agree that the platform may remove or moderate content that violates these terms.</p>
+              </div>
+              
+              <div class="Privacy_Policy">
+                <h2>Privacy Policy</h2>
+                <p>Users agree to the collection, use, and sharing of their personal information as described in the platform's privacy policy.</p>
+                <p>Users understand that their data may be stored and processed in different jurisdictions.</p>
+              </div>
+              
+              <div class="Community_Guidelines">
+                <h2>Community Guidelines</h2>
+                <p>Users must respect other members and not engage in harassment, bullying, or any form of abusive behavior.</p>
+                <p>Users must not engage in spamming, phishing, or any other fraudulent activity.</p>
+                <p>Users must not attempt to hack, disrupt, or negatively impact the platform or other users.</p>
+              </div>
+              
+              <div class="Intellectual_Property">
+                <h2>Intellectual Property</h2>
+                <p>Users grant the platform a non-exclusive, royalty-free license to use, distribute, modify, and display the content they post.</p>
+                <p>Users must not use the platform's intellectual property without permission.</p>
+              </div>
+              
+              <div class="Account_Termination">
+                <h2>Account Termination</h2>
+                <p>Users understand that their accounts may be suspended or terminated for violating these terms.</p>
+                <p>Users agree that the platform may remove content or restrict access to the service without prior notice if necessary.</p>
+              </div>
+              
+              <div class="Limitation_of_Liability">
+                <h2>Limitation of Liability</h2>
+                <p>Users acknowledge that the platform is provided "as is" and "as available" without any warranties.</p>
+                <p>Users agree that the platform is not responsible for any damages or losses resulting from their use of the service.</p>
+              </div>
+              
+              <div class="Changes_to_Terms">
+                <h2>Changes to Terms</h2>
+                <p>Users agree that the platform may update these terms at any time, and continued use of the service constitutes acceptance of the new terms.</p>
+                <p>Users should regularly review the terms and conditions to stay informed of any changes.</p>
+              </div>
+              
+              <div class="Reporting_Violations">
+                <h2>Reporting Violations</h2>
+                <p>Users should report any violations of these terms to the platform's support team or moderation staff.</p>
+                <p>Users agree to cooperate with any investigations into reported violations.</p>
+              </div>
+              
+              <div class="Governing_Law">
+                <h2>Governing Law</h2>
+                <p>Users agree that these terms and conditions are governed by the laws of the jurisdiction where the platform is based.</p>
+                <p>Users agree to resolve any disputes through binding arbitration or small claims court, depending on the jurisdiction.</p>
+              </div>              
+        </div>
+        <form id="creatAccountForm">
+          <div class="input">
+            <label for="first_Name">First Name</label>
+            <input type="text" id="first_Name" name="first_Name" placeholder="First Name">
+          </div>
+
+          <div class="input">
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Last Name">
+          </div>
+
+          <div class="input">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Example@example.com">
+          </div>
+
+          <div class="input">
+            <label for="Username">Username</label>
+            <input type="text" id="Username" name="Username" placeholder="Username">
+          </div>
+
+          <div class="input">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Password">
+          </div>
+
+          <div class="input">
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="Password">
+          </div>
+        </form>
+        <button type="button" class="sighnup" onclick="createAccount()">Create Account</button>
+
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
